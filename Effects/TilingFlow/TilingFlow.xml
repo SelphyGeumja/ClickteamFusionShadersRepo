@@ -1,7 +1,7 @@
 <effect>
     <name>TilingFlow</name>
     <description>Shadertoy by Dave_Hoskins</description>
-    <author>Converted for Clickteam bt SelphyGeumja</author>
+    <author>Converted for Clickteam by SelphyGeumja</author>
     <BackgroundTexture>1</BackgroundTexture>
 
     <parameter>
@@ -13,3 +13,4 @@
         <value>0.0</value>
     </parameter>
 </effect>
+
