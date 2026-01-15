@@ -1,0 +1,21 @@
+<effect>
+    <name>CrumpledWave</name>
+    <description>Shadertoy by nasana</description>
+    <author>Converted for Clickteam by SelphyGeumja</author>
+
+    <parameter>
+        <name>Progress</name>
+        <code>fProgress</code>
+        <type>float</type>
+        <property>edit</property>
+        <value>0.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Flip Vertical</name>
+        <code>FlipY</code>
+        <type>int</type>
+        <property>checkbox</property>
+        <value>0</value>
+    </parameter>
+</effect>
