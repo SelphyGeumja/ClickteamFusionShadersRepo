@@ -1,0 +1,48 @@
+<effect>
+    <name>WaterRipples</name>
+    <description>Shadertoy by liucc09. fProgress=time, fZoom=zoom.</description>
+    <author>Converted for Clickteam by SelphyGeumja</author>
+    <BackgroundTexture>1</BackgroundTexture>
+
+    <parameter>
+        <name>Progress</name>
+        <code>fProgress</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Animation time</description>
+        <value>0.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Zoom</name>
+        <code>fZoom</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Zoom amount</description>
+        <value>1.0</value>
+    </parameter>
+</effect>
+<effect>
+    <name>Ripple Drops (Shadertoy)</name>
+    <description>Random raindrop ripples. fProgress=time, fScale=zoom.</description>
+    <author>Converted for Clickteam</author>
+    <BackgroundTexture>1</BackgroundTexture>
+
+    <parameter>
+        <name>Progress</name>
+        <code>fProgress</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Time / animation progress</description>
+        <value>0.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Scale</name>
+        <code>fScale</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Zoom (1.0 = normal)</description>
+        <value>1.0</value>
+    </parameter>
+</effect>
