@@ -14,7 +14,7 @@ struct PS_OUTPUT
     float4 Color : SV_TARGET;
 };
 
-// Ressources déclarées comme dans l'exemple (non utilisées ici)
+// Ressources dÃ©clarÃ©es comme dans l'exemple (non utilisÃ©es ici)
 Texture2D<float4> Texture0       : register(t1);
 sampler           Texture0Sampler: register(s1);
 
@@ -36,7 +36,7 @@ float2 shadertoy_mod(float2 x, float2 y)
 
 float safe_div(float a, float b)
 {
-    // évite NaN/Inf sans branch coûteux
+    // Ã©vite NaN/Inf sans branch coÃ»teux
     return a / (b + (b == 0.0) * 1e-6);
 }
 
@@ -63,7 +63,7 @@ float3 shader_colour(float2 uv, float time)
 
     float c = 1.0;
 
-    // MAX_ITER = 5 (déroulé)
+    // MAX_ITER = 5 (dÃ©roulÃ©)
     c = iter_accum(p, i, c, time, 1.0);
     c = iter_accum(p, i, c, time, 2.0);
     c = iter_accum(p, i, c, time, 3.0);
@@ -86,7 +86,7 @@ PS_OUTPUT ps_main(in PS_INPUT In)
 
     float3 colour = shader_colour(uv, time);
 
-    // modulation par Tint (comme l'exemple validé)
+    // modulation par Tint (comme l'exemple validÃ©)
     Out.Color = float4(colour * In.Tint.rgb, In.Tint.a);
     return Out;
 }
