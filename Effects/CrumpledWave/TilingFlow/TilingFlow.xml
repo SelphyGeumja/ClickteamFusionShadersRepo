@@ -1,0 +1,15 @@
+<effect>
+    <name>TilingFlow</name>
+    <description>Shadertoy by Dave_Hoskins</description>
+    <author>Converted for Clickteam bt SelphyGeumja</author>
+    <BackgroundTexture>1</BackgroundTexture>
+
+    <parameter>
+        <name>Progress</name>
+        <code>fProgress</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Animation progress (equiv. iTime)</description>
+        <value>0.0</value>
+    </parameter>
+</effect>
