@@ -1,0 +1,33 @@
+<effect>
+    <name>Cross Hatching BW (1:1)</name>
+    <description>BW cross-hatching with 1:1 pixel-art diagonals, denser/thinner vertical & horizontal lines, and protected deep blacks.</description>
+    <author>Selphy Geumja</author>
+    <BackgroundTexture>0</BackgroundTexture>
+
+    <parameter>
+        <name>Line Scale</name>
+        <code>fScale</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Line density (acts like pixel grid scale)</description>
+        <value>220.0</value>
+    </parameter>
+
+    <parameter>
+        <name>Line Width</name>
+        <code>fLineWidth</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Base line thickness</description>
+        <value>0.12</value>
+    </parameter>
+
+    <parameter>
+        <name>Black Threshold</name>
+        <code>fBlackThreshold</code>
+        <type>float</type>
+        <property>edit</property>
+        <description>Deep-black cutoff (no hatching under this luminance)</description>
+        <value>0.08</value>
+    </parameter>
+</effect>
